@@ -1,0 +1,93 @@
+
+ /* ================= PHẦN PROFILE (MAIN) ================= */
+ .anh-dai-dien-vuong {
+     width: 110px;
+     height: 110px;
+     border-radius: 12px;
+     object-fit: cover;
+     border: 3px solid rgba(255, 255, 255, 0.05);
+     margin-bottom: 15px;
+ }
+
+ .menu-profile {
+     padding: 0;
+     margin-top: 25px;
+ }
+
+ .menu-profile li a {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 14px 20px;
+     color: var(--chu-mo);
+     border-bottom: 1px solid var(--vien);
+     font-weight: 500;
+     transition: 0.3s;
+     font-size: 14.5px;
+ }
+
+ .menu-profile li:last-child a {
+     border-bottom: none;
+ }
+
+ .menu-profile li a:hover,
+ .menu-profile li a.active {
+     background-color: var(--mau-nhan);
+     color: var(--nen-ngoai);
+     border-radius: 8px;
+     border-bottom: none;
+     font-weight: 700;
+ }
+
+ .form-label-dark {
+     color: var(--chu-chinh);
+     font-weight: 600;
+     font-size: 14px;
+     margin-bottom: 8px;
+     display: block;
+ }
+
+ .form-label-dark span {
+     color: var(--mau-do);
+ }
+
+ .form-control-dark {
+     background-color: var(--nen-phu);
+     border: 1px solid rgba(56, 189, 248, 0.2);
+     color: var(--chu-chinh);
+     padding: 12px 15px;
+     border-radius: 6px;
+     width: 100%;
+     outline: none;
+     transition: 0.3s;
+     font-size: 14.5px;
+ }
+
+ .form-control-dark:focus {
+     border-color: var(--mau-nhan);
+     box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+     background-color: var(--nen-khoi);
+ }
+
+ .form-control-dark::placeholder {
+     color: rgba(148, 163, 184, 0.4);
+ }
+
+ .btn-luu-vuong {
+     background-color: var(--mau-nhan);
+     color: var(--nen-ngoai);
+     font-weight: bold;
+     padding: 12px 35px;
+     border: none;
+     border-radius: 12px;
+     cursor: pointer;
+     transition: 0.3s;
+     font-size: 15px;
+     margin-top: 10px;
+ }
+
+ .btn-luu-vuong:hover {
+     background-color: var(--mauHover);
+     color: var(--trang);
+ }
+
